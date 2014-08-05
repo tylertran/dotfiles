@@ -129,7 +129,7 @@ if &t_Co > 255
    hi Boolean         ctermfg=135
    hi Character       ctermfg=144
    hi Number          ctermfg=135
-   hi String          ctermfg=118
+   hi String          ctermfg=144
    hi Conditional     ctermfg=161               cterm=bold
    hi Constant        ctermfg=135               cterm=bold
    hi Cursor          ctermfg=16  ctermbg=253
@@ -204,7 +204,7 @@ if &t_Co > 255
 
    hi Normal          ctermfg=252 ctermbg=none
    hi Comment         ctermfg=59
-   hi CursorLine                  ctermbg=234   cterm=underline
+   hi CursorLine                  ctermbg=236   cterm=none
    hi CursorColumn                ctermbg=234
    hi LineNr          ctermfg=250 ctermbg=none
    hi NonText         ctermfg=250 ctermbg=none

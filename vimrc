@@ -5,9 +5,10 @@ if has ("gui_running")
   set background=light
   colorscheme solarized
 else
-"  set t_Co=256
+  set t_Co=256
   set background=dark
-  colorscheme base16-monokai
+  set cursorline
+  colorscheme molokai
 endif
 
 syntax on
