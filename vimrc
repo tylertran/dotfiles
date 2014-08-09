@@ -4,6 +4,7 @@ if has ("gui_running")
   set guifont=Consolas:h12
   set background=light
   colorscheme solarized
+  set cursorline
 endif
 
 syntax on
