@@ -30,6 +30,11 @@ alias ll='ls -lah'
 alias l='ls -lah'
 alias lh='ls -lh'
 alias la='ls -lAh'
-alias sl=ls # often screw this up
 
 alias afind='ack-grep -il'
+
+# Log into Automated Insights
+alias wd='ssh tylert@work.dev.autoi.co -p2299'
+alias rd='ssh -p2299 tylert@ec2-54-212-9-166.us-west-2.compute.amazonaws.com'
+
+alias redis-cli='~/redis-3.0.2/src/redis-cli'
