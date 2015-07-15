@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/tylert/elasticsearch-1.6.0/data'
+let g:netrw_dirhist_2='/home/tylert/status/app/models/concerns'
+let g:netrw_dirhist_3='/home/tylert/status/.git/branches'
+let g:netrw_dirhist_4='/home/tylert/status/app/models/concerns'
