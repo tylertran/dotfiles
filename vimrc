@@ -4,11 +4,13 @@ if has ("gui_running")
   set guifont=Consolas:h12
   set background=light
   colorscheme solarized
-  set cursorline
 endif
 
 syntax on
 set backspace=indent,eol,start  "Allow backspace in insert mode
+
+" Hybrid relative-absolute line numbers
+set rnu
 set nu "Line numbers are good
 
 " Softtabs, 2 spaces
