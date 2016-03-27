@@ -11,12 +11,14 @@ set backspace=indent,eol,start  "Allow backspace in insert mode
 
 set nu "Line numbers are good
 
-" Softtabs, 2 spaces
+" Softtabs, 2 spaces by default
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set shiftround
 set expandtab
+
+autocmd FileType python setlocal tabstop=4 shiftwidth=4 softtabstop=4
 
 " Open new split panes to right and bottom, which feels more natural
 set splitbelow
