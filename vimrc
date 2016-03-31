@@ -19,6 +19,7 @@ set shiftround
 set expandtab
 
 autocmd FileType python setlocal tabstop=4 shiftwidth=4 softtabstop=4
+autocmd FileType c setlocal tabstop=4 shiftwidth=4 softtabstop=4
 
 " Open new split panes to right and bottom, which feels more natural
 set splitbelow
