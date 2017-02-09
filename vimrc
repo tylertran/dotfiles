@@ -1,11 +1,5 @@
 set nocompatible
 
-if has ("gui_running")
-  set guifont=Consolas:h12
-  set background=light
-  colorscheme solarized
-endif
-
 syntax on
 set backspace=indent,eol,start  "Allow backspace in insert mode
 
